@@ -2,7 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
 //    tambah
-    id("com.google.devtools.ksp") version "1.9.0-1.0.13"
+    alias(libs.plugins.ksp)
+//    version "1.9.0-1.0.13"
 
 }
 
@@ -53,7 +54,7 @@ dependencies {
     implementation(libs.bundles.room)
     ksp(libs.room.compiler)
     //vm
-    implementation(libs.lifecycle.viemodel.compose)
+    implementation(libs.lifecycle.viewmodel.compose)
     implementation(libs.lifecycle.runtime.compose)
     //navigation
     implementation(libs.navigation.compose)

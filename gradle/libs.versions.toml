@@ -32,7 +32,7 @@ androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-te
 androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
 
 #librarnya
-compose-icon = {module = "androidx.compose.material:material-icons-extended"}
+compose-icons = {module = "androidx.compose.material:material-icons-extended"}
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "room"}
 room-ktx = { module = "androidx.room:room-ktx", version.ref="room"}
 room-compiler = { module = "androidx.room:room-compiler", version.ref="room"}
