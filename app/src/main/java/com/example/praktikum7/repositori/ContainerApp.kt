@@ -1,7 +1,6 @@
 package com.example.praktikum7.repositori
 
-import com.example.praktikum7.repositori.RepositoriSiswa
-import com.example.praktikum7.repositori.OfflineRepositoriSiswa
+import android.content.Context
 import com.example.praktikum7.room.DatabaseSiswa
 
 interface ContainerApp {
